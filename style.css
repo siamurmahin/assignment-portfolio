@@ -1,0 +1,271 @@
+/* BODY */
+
+body{
+
+	padding: 0px;
+	margin:0px;
+	font-family: 'Noto Sans', sans-serif;
+
+}
+
+/* Section One */
+
+.first-section{
+	
+	height: 600px;
+	background-image: url("images/header-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.half-width{
+	
+	padding-top: 5%;
+	width: 40%;
+	float: left;
+	margin-left: 5%;
+	justify-content: center;
+	align-items: center;
+}
+
+.half-width img{
+	
+    width: 80%;
+    padding-top: 0%;
+    padding-left: 6%;
+}
+
+.first-section-info{
+
+	padding-left: 5%;
+	padding-top: 10%;
+}
+.second-section-info{
+	
+	padding-top: 10%;
+}
+
+
+.second-section{
+	
+	height: 600px;
+	background-image: url("images/biography-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+#section-2-heading{
+
+    font-size: 45px;
+    margin-top: -15px;
+    color: #ff1671;
+    font-weight: 800;
+    padding-top: 3%;
+}
+
+#second-section-img img{
+
+    padding-top: 0%;
+    width: 65%;
+    padding-left: 15%;
+}    
+
+.third-section-info{
+	
+	padding-top: 10%;
+	padding-left: 5%;
+}
+
+.third-section{
+
+	height: 600px;
+	background-image: url("images/header-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#section-3-heading{
+
+    font-size: 45px;
+    margin-top: -15px;
+    color: #ffa131;
+    font-weight: 800;
+}
+
+#third-image{
+
+	width: 90%;
+	padding-top: 20%;
+}
+
+
+
+h1 {
+    font-size: 47px;
+    margin-top: -15px;
+    color:#EB4C7A;
+    font-weight: 900;
+}
+
+h3 {
+    padding-top: 2%;
+    font-size: 30px;
+    color: #202020;
+}
+
+p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #666666;
+    padding-bottom: 15px;
+}
+
+/* Hire me button */
+
+button{
+    
+	background-image: linear-gradient(45deg, #EB4C7A, #ED4C73);
+	    
+	padding: 14px 30px;
+	border-radius: 5px;
+	box-shadow: #4c4c4c54 0px 9px 18px;
+	border:none;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+
+}
+
+.hireme{
+
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+
+}
+/*Download CV Button*/
+#button-two{
+    
+    background-image: linear-gradient(45deg, #ff1671, #ff5296);
+    padding: 12px 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+	box-shadow: #4c4c4c54 0px 9px 18px;
+	border:none;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+	
+}
+
+
+button:hover{
+	
+	transform: translateY(-10px);
+}
+
+
+/* lastest work */
+
+.latest-work-section{
+	height: 600px;
+	background-image: url("images/latest-work-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.latest-work{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#work-heading {
+    text-align: center;
+    padding: 5% 0px;
+    margin: 0px;
+    color: #292929;
+    padding-top: 8%
+}
+
+.work-width{
+
+	width:25%;
+	margin-left: 3%;
+}
+
+.work-width img{
+
+	width: 100%;
+	box-shadow: #4c4c4c1a 0px 9px 20px 9px;
+	-webkit-transition: all .5s ease;
+	backface-visibility: none;
+}
+
+.work-width img:hover{
+	
+	transform: scale(1.1);
+}
+
+
+/* last section(footer) */
+
+.final-section{
+	height: 600px;
+	background-image: url("images/footer-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	justify-content: center;
+}
+
+#work-heading-client{
+	color: #161616;
+	padding-top: 8%;
+}
+
+#client-words {
+    width: 40%;
+    font-size: 16px;
+    margin: auto;
+    font-style: italic;
+    font-weight: 500;
+}
+
+#client-name {
+    font-size: 20px;
+    color: black;
+}
+
+#client-degsination {
+    font-size: 15px;
+    color: #ff1670;
+    font-weight: 100;
+}    
+
+.final-box {
+    width: 50%;
+    margin: auto;
+    background-image: linear-gradient(45deg, #ff1670, #ff5096);
+    padding: 2%;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: #27272730 0px 9px 40px 4px;
+}
+
+#final-box-text {
+    color: white;
+    font-size: 20px;
+}
+
+#final-box-heading {
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.footer{
+	padding-top: 3%;
+	font-size: 15px;
+	text-align: center;
+}
